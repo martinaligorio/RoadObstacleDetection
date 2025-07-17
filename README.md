@@ -60,7 +60,9 @@ Also, 31 images have been excluded since they were corrupted data and couldn't b
 
 #### RoadAnomaly
 As formerly mentioned, this dataset took the place of Fishyscapes for inference.
-Here is the link: https://datasets-cvlab.epfl.ch/2019-road-anomaly/RoadAnomaly_jpg.zip## Experimental setup
+Here is the link: https://datasets-cvlab.epfl.ch/2019-road-anomaly/RoadAnomaly_jpg.zip
+
+## Experimental setup
 
 - Framework: Pytorch
 - Training details: 30 epochs, convergence reached after 15
