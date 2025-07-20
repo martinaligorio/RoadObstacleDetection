@@ -80,7 +80,7 @@ Here is the link: https://datasets-cvlab.epfl.ch/2019-road-anomaly/RoadAnomaly_j
 ### Inference global metrics
 
 ##### LostAndFound
-31 corrupted samples excluded, other 132 excluded for obstacles being too much far and occupying less than 200 pixels
+31 corrupted samples excluded
 
 | Metric     | Precision | Recall   | F1 Score | IoU      |
 | ---------- | --------- | -------- | -------- | -------- |
@@ -100,7 +100,6 @@ Here is the link: https://datasets-cvlab.epfl.ch/2019-road-anomaly/RoadAnomaly_j
 
 
 ##### RoadAnomaly
-Lower bound trimmed evaluation, taking only top 70% of samples (based on IoU), because of the severely different scenarios inside this dataset, like rural areas.
 
 | Metric     | Precision | Recall   | F1 Score | IoU      |
 | ---------- | --------- | -------- | -------- | -------- |
@@ -124,9 +123,6 @@ Lower bound trimmed evaluation, taking only top 70% of samples (based on IoU), b
 ![Prediction Sample 2](ProjectWorkspace/eval/prediction_updatedloss_2.png)
 
 
-### Example of excluded pictures with obstacles too far to be detected by our trained model capabilities
-![Excluded Sample](ProjectWorkspace/eval/excluded_LostAndFoundImage.png)
-
 
 ### Example of LostAndFound inference results
 **Sample: Festplatz Flugfeld**
@@ -139,10 +135,6 @@ Lower bound trimmed evaluation, taking only top 70% of samples (based on IoU), b
 - Obstacle Score (softmax head and calibrated unknown objectness score)
 **Please note that the obstacle score heatmap behaviour has been reversed in order to make it easier to compare with the confidence map**
 ![Festplatz Obstacle Score](ProjectWorkspace/eval/LostAndFoundInferenceImages/TopResults/07_Festplatz_Flugfeld_000003_000340/obstacle_score.png)
-
-### Example of rural areas too much different from Cityscapes scenarios (from RoadAnomaly)
-**Sample: Village Lin (RoadAnomaly)**
-![Village Lin RGB](ProjectWorkspace/eval/RoadAnomalyInferenceImages/TrimmedSamples/animals08_on_the_main_street_of_village_Lin_Albania/rgb.png)
 
 
 ### Example of RoadAnomaly inference results
