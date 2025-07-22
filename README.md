@@ -84,6 +84,24 @@ Here is the link: https://datasets-cvlab.epfl.ch/2019-road-anomaly/RoadAnomaly_j
 
 | Metric     | Precision | Recall   | F1 Score | IoU      |
 | ---------- | --------- | -------- | -------- | -------- |
+| **Mean**   | 0.297769  | 0.492834 | 0.317349 | 0.198677 |
+| **Std**    | 0.207538  | 0.201873 | 0.149358 | 0.117190 |
+| **Min**    | 0.061439  | 0.156852 | 0.106540 | 0.055723 |
+| **Max**    | 0.797638  | 0.936249 | 0.752533 | 0.602348 |
+| **Median** | 0.223323  | 0.496394 | 0.294525 | 0.172508 |
+
+###### Global score-based metrics
+
+| Metric         | Value    |
+| -------------- | -------- |
+| **AUROC**      | 0.681241 |
+| **FPR\@95TPR** | 0.812987 |
+
+
+##### RoadAnomaly
+
+| Metric     | Precision | Recall   | F1 Score | IoU      |
+| ---------- | --------- | -------- | -------- | -------- |
 | **Mean**   | 0.007024  | 0.700488 | 0.013409 | 0.006931 |
 | **Std**    | 0.014545  | 0.274468 | 0.025529 | 0.014156 |
 | **Min**    | 0.000007  | 0.001259 | 0.000014 | 0.000007 |
@@ -97,24 +115,6 @@ Here is the link: https://datasets-cvlab.epfl.ch/2019-road-anomaly/RoadAnomaly_j
 | **AUROC**      | 0.842127 |
 | **FPR\@95TPR** | 0.541097 |
 
-
-
-##### RoadAnomaly
-
-| Metric     | Precision | Recall   | F1 Score | IoU      |
-| ---------- | --------- | -------- | -------- | -------- |
-| **Mean**   | 0.297769  | 0.492834 | 0.317349 | 0.198677 |
-| **Std**    | 0.207538  | 0.201873 | 0.149358 | 0.117190 |
-| **Min**    | 0.061439  | 0.156852 | 0.106540 | 0.055723 |
-| **Max**    | 0.797638  | 0.936249 | 0.752533 | 0.602348 |
-| **Median** | 0.223323  | 0.496394 | 0.294525 | 0.172508 |
-
-###### Global score-based metrics
-
-| Metric         | Value    |
-| -------------- | -------- |
-| **AUROC**      | 0.681241 |
-| **FPR\@95TPR** | 0.812987 |
 ## Visual examples
 
 ### A couple of training samples (RGB image, ground truths, prediction of both heads of the model)
